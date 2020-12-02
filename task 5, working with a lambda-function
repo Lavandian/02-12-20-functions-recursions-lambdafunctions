@@ -1,0 +1,3 @@
+namesurnameage = ['Sasha Vasilev 23', 'Rakhim Bekmambetov 18', 'Oleg Stepanov 27']
+print(sorted(namesurnameage, key = lambda x: int(x[-2:])))
+print(sorted(namesurnameage, key = lambda x: int(x[-2:]))[0])
